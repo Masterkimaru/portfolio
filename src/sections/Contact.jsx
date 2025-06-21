@@ -17,7 +17,7 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://portfolio-message-backend.onrender.com/send-email", {
+      const response = await fetch("https://portfolio-message-backend-czkkayd7n-kelvin-wachiras-projects.vercel.app/send-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
